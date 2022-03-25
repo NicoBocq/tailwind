@@ -7,7 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'standard',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react/jsx-runtime',
+    'plugin:react/jsx-runtime'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -36,6 +36,6 @@ module.exports = {
       ignoreTemplateLiterals: true,
       ignoreRegExpLiterals: true,
       ignorePattern: 'class'
-    }],
+    }]
   }
 }
