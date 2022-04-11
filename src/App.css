@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ma-classe {
+  @apply text-brand-500 text-3xl font-extrabold
+}
